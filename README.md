@@ -1,17 +1,22 @@
-# HideMuteSoundboardIcon
-Vencord plugin to hide mute soundboard icon
-# hideMuteSoundboardIcon
+1. Install Vencord
 
-Hides the muted soundboard icon everywhere.
 
-# How it works
 
-The plugin injects a small stylesheet into the page when it is enabled and removes it when it is disabled.
+2\. Clone this repository into your Vencord plugins directory:
 
-# Installation
+&#x20;  cd Vencord/src/userplugins
 
-Copy the "hideMuteSoundboardIcon" folder into "src/userplugins" in your Vencord source directory.
-Build and inject:
-1. pnpm build
-2. pnpm inject
-3. Open Settings -> Vencord -> Plugins and enable "hideMuteSoundboardIcon".
+&#x20;  git clone https://github.com/Talya1412/completeDiscordQuest.git
+
+
+
+3\. Reinject Vencord
+
+&#x20;  cd Vencord
+
+&#x20;  pnpm inject
+
+
+
+4\. Enable the plugin in Vencord settings
+
