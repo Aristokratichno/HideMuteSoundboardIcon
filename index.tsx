@@ -1,6 +1,6 @@
 import definePlugin from "@utils/types";
 
-const 1 = "hide-mute-soundboard-icon";
+const STYLE_ID = "hide-mute-soundboard-icon";
 
 const CSS = `
 [class*="voiceCallWrapper"] [class*="statusContainer"]:has(path[d^="M3.86 8.86"]) {
