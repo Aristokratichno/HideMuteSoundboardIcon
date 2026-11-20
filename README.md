@@ -1,11 +1,11 @@
 1. Install Vencord
 
 2. Clone this repository into your Vencord plugins directory:
-cd Vencord/src/userplugins
-git clone https://github.com/Talya1412/completeDiscordQuest.git
+\n cd Vencord/src/userplugins
+\n git clone https://github.com/Aristokratichno/HideMuteSoundboardIcon/
 
 3. Reinject Vencord
-cd Vencord
-pnpm inject
+\n cd Vencord
+\n pnpm inject
 
 4. Enable the plugin in Vencord settings
