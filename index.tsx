@@ -1,6 +1,6 @@
 import definePlugin from "@utils/types";
 
-const STYLE_ID = "hide-mute-soundboard-icon";
+const SoundBoardIcon = "hide-mute-soundboard-icon";
 
 const CSS = `
 [class*="voiceCallWrapper"] [class*="statusContainer"]:has(path[d^="M3.86 8.86"]) {
@@ -31,14 +31,14 @@ export default definePlugin({
     authors: [{ name: "D1ktor", id: 850281722188791808n }, { name: "nux", id: 821384225584447528n }],
 
     start() {
-        if (document.getElementById(1)) return;
+        if (document.getElementById(SoundBoardIcon)) return;
         const style = document.createElement("style");
-        style.id = 1;
+        style.id = SoundBoardIcon;
         style.textContent = CSS;
         document.head.appendChild(style);
     },
 
     stop() {
-        document.getElementById(1)?.remove();
+        document.getElementById(SoundBoardIcon)?.remove();
     }
 });
