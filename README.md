@@ -1,4 +1,8 @@
-# How to install plugin
+# HideMuteSoundboardIcon
+
+A simple plugin for Vencord that hides the muted soundboard icon everywhere
+
+# How to Install plugin
 
 ## 1. Install Vencord
 
