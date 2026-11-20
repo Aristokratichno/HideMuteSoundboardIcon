@@ -1,3 +1,5 @@
+### How to install plugin
+
 ## 1. Install Vencord
 
 ## 2. Clone this repository into your Vencord plugins directory:
