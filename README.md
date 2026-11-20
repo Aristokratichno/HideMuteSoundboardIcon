@@ -1,4 +1,4 @@
-## How to install plugin
+### How to install plugin
 
 # 1. Install Vencord
 
