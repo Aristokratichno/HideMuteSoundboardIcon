@@ -1,8 +1,8 @@
-1. Install Vencord
+1. #### Install Vencord
 
 
 
-2\. Clone this repository into your Vencord plugins directory:
+#### 2\. Clone this repository into your Vencord plugins directory:
 
 &#x20;  cd Vencord/src/userplugins
 
@@ -10,7 +10,7 @@
 
 
 
-3\. Reinject Vencord
+#### 3\. Reinject Vencord
 
 &#x20;  cd Vencord
 
@@ -18,5 +18,5 @@
 
 
 
-4\. Enable the plugin in Vencord settings
+#### 4\. Enable the plugin in Vencord settings
 
